@@ -12,7 +12,7 @@ How have I implemented it?<br>
 For exploring the environment, I used the epsilon-greedy behavior policy.<br>
 
 The formula used:<br>
-New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)] where s = State<br>
+New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)] where<br>s = State<br>
                                                                  a = Action<br>
                                                                  α = Learning Rate<br>
                                                                  γ = Discount Rate<br>
