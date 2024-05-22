@@ -39,7 +39,7 @@ pip install pygame
 pip install tqdm
 ```
 Make sure you are using the correct Python (ideally Python 3).<br>
-Keep all the documents in the same folder; if not, redirect them to the codes accordingly.<br>
+Keep all the documents in the same folder; if not, redirect them accordingly.<br>
 Run the main.py file
 
 ## Output
