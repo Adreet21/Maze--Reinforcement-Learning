@@ -11,6 +11,7 @@ Q-Learning helps an agent learn to maximize the total reward over time through r
 
 ## How have I implemented it?<br>
 For exploring the environment, I used the epsilon-greedy behaviour policy.<br>
+And trained the model using Q-Learning to find the optimal path.
 
 ## The formula used:<br>
 New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)]<br>where:<br>s = State<br>
