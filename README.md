@@ -1,6 +1,6 @@
 # MAZE Solving (Reinforcement Learning)
 
-This is a maze problem where there are keys, fires, and a door. The environment was modeled as an<br>MDP (Markov decision process).
+This is a maze problem where there are keys, fires, and a door. The environment was modelled as an<br>MDP (Markov decision process).
 
 The objective is for the agent to escape through the exit door using the key while avoiding the fire.
 
@@ -9,7 +9,7 @@ I used Q-Learning to solve the maze. Q-Learning is a reinforcement learning algo
 Q-Learning helps an agent learn to maximize the total reward over time through repeated interactions with the environment, even when the model of that environment is not known.
 
 ## How have I implemented it?<br>
-For exploring the environment, I used the epsilon-greedy behavior policy.<br>
+For exploring the environment, I used the epsilon-greedy behaviour policy.<br>
 
 ## The formula used:<br>
 New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)]<br>where:<br>s = State<br>
@@ -46,5 +46,5 @@ After successfully running the code in the terminal, there should be a progress 
 After it reaches 100%, a maze map will automatically open in another window and visually show you the best path taken by the agent.
 
 ## Not functioning?
-If you run into difficulties or error in the code please feel free to reach out.<br>
+If you run into difficulties or errors in the code please feel free to reach out.<br>
 Email: contact@shahmeer.xyz
