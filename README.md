@@ -4,14 +4,14 @@ This is a maze problem where there are keys, fires, and a door. The environment 
 
 The objective is for the agent to escape through the exit door using the key while avoiding the fire.
 
-What is Q-Learning?<br>
+## What is Q-Learning?<br>
 I used Q-Learning to solve the maze. Q-Learning is a reinforcement learning algorithm that finds an optimal action selection policy for any finite MDP environment.<br>
 Q-Learning helps an agent learn to maximize the total reward over time through repeated interactions with the environment, even when the model of that environment is not known.
 
-How have I implemented it?<br>
+## How have I implemented it?<br>
 For exploring the environment, I used the epsilon-greedy behavior policy.<br>
 
-The formula used:<br>
+## The formula used:<br>
 New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)] where<br>s = State<br>
                                                                  a = Action<br>
                                                                  α = Learning Rate<br>
@@ -23,9 +23,7 @@ New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)] where<br>s = State<
 The values used were: Step Size = 0.25<br>
                       Epsilon = 0.1<br>
                       γ(Gamma) = 0.95
-                                                            
-
-
+                                                                  
 ## Installation
 
 Make a clone of all the files in the repository.
