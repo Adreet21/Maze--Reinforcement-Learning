@@ -1,11 +1,12 @@
 # MAZE Solving (Reinforcement Learning)
 
-This is a maze problem where there are keys, fires, and a door. The environment was modelled as an<br>MDP (Markov decision process).
+This is a maze problem where there are keys, fires, and a door. The environment was modelled as an<br>MDP (Markov decision process).<br>
+The objective is for the agent to escape through the exit door using the key while avoiding the fire.<br>
+I used Q-Learning to solve the problem.
 
-The objective is for the agent to escape through the exit door using the key while avoiding the fire.
 
 ## What is Q-Learning?<br>
-I used Q-Learning to solve the maze. Q-Learning is a reinforcement learning algorithm that finds an optimal action selection policy for any finite MDP environment.<br>
+Q-Learning is a reinforcement learning algorithm that finds an optimal action selection policy for any finite MDP environment.<br>
 Q-Learning helps an agent learn to maximize the total reward over time through repeated interactions with the environment, even when the model of that environment is not known.
 
 ## How have I implemented it?<br>
