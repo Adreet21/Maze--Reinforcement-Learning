@@ -12,15 +12,15 @@ Q-Learning helps an agent learn to maximize the total reward over time through r
 For exploring the environment, I used the epsilon-greedy behavior policy.<br>
 
 ## The formula used:<br>
-New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)] where<br>s = State<br>
+New Q(s,a) = Q(s,a) + α[R(s,a) + γ max Q'(s',a') - Q(s,a)]<br>where:<br>s = State<br>
                                                                  a = Action<br>
-                                                                 α = Learning Rate<br>
-                                                                 γ = Discount Rate<br>
+                                                                 α(Alpha) = Learning Rate<br>
+                                                                 γ(Gamma) = Discount Rate<br>
                                                                  Q(s,a) = Current Q-Value<br>
                                                                  max Q'(s',a') = Maximum expected future reward<br>
                                                                  R(s,a) = Reward for taking an action at that state<br>
 
-The values used were: Step Size = 0.25<br>
+The values used were:<br>Step Size = 0.25<br>
                       Epsilon = 0.1<br>
                       γ(Gamma) = 0.95
                                                                   
