@@ -47,6 +47,8 @@ Run the main.py file
 After successfully running the code in the terminal, there should be a progress bar.<br>
 After it reaches 100%, a maze map will automatically open in another window and visually show you the best path taken by the agent.
 
+Demo Video: https://www.youtube.com/watch?v=drl0939wBww
+
 ## Not functioning?
 If you run into difficulties or errors in the code please feel free to reach out.<br>
 Email: contact@shahmeer.xyz
