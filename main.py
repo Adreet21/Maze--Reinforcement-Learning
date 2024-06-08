@@ -36,8 +36,9 @@ def display_final_epsiode(agent, env):
     '''
     state = env.reset()
     pygame.init()
+    
     # if the screen is very small or very large, change these values to desired resolution
-    screen = pygame.display.set_mode((1600, 1600))
+    screen = pygame.display.set_mode((900, 900))
     running = True
 
     env.render(screen)
